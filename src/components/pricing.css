@@ -1,0 +1,147 @@
+
+.pricing-section {
+  padding: 100px 0;
+  background: #0b0815;
+  color: white;
+}
+
+.pricing-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.pricing-heading h2 {
+  font-size: clamp(32px, 4vw, 45px);
+  font-weight: 750;
+  margin: 20px 0;
+}
+
+.pricing-heading h2 span {
+  color: #b99aff;
+}
+
+.pricing-heading p {
+  color: #aaa1b9;
+}
+
+.pricing-card {
+  height: 100%;
+  padding: 35px;
+  border: 1px solid rgba(185, 154, 255, 0.2);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #191329, #100c1d);
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-7px);
+  border-color: #b99aff;
+}
+
+.popular-plan {
+  border-color: #a77bff;
+  box-shadow: 0 0 30px rgba(145, 91, 255, 0.12);
+}
+
+.popular-badge {
+  display: inline-block;
+  background: #a77bff;
+  color: #130b20;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 7px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.pricing-card h4 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.plan-description {
+  color: #aaa1b9;
+  font-size: 14px;
+  margin: 10px 0 25px;
+}
+
+.plan-price {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.plan-price strong {
+  font-size: 42px;
+}
+
+.plan-price span {
+  color: #aaa1b9;
+  font-size: 13px;
+}
+
+.plan-divider {
+  height: 1px;
+  background: rgba(255,255,255,0.1);
+  margin: 25px 0;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pricing-card li {
+  color: #b99aff;
+  margin-bottom: 17px;
+}
+
+.pricing-card li span {
+  color: #d1cadb;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.starter-button,
+.pro-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.starter-button {
+  background: transparent;
+  border: 1px solid #a77bff;
+  color: white;
+}
+
+.starter-button:hover {
+  background: #a77bff;
+  border-color: #a77bff;
+  color: #130b20;
+}
+
+.pro-button {
+  background: linear-gradient(90deg, #a77bff, #d0aaff);
+  border: none;
+  color: #130b20;
+}
+
+.pro-button:hover {
+  background: #d0aaff;
+  color: #130b20;
+}
+
+@media (max-width: 768px) {
+  .pricing-section {
+    padding: 75px 0;
+  }
+
+  .pricing-card {
+    padding: 28px;
+  }
+}
