@@ -34,3 +34,11 @@ A modern and responsive SaaS productivity landing page built using React and Boo
 ## Build
 
 npm run build
+
+## Live Demo
+
+https://task-flow-kappa-gray.vercel.app/
+
+## GitHub Repository
+
+https://github.com/shravanidahule-debug/TaskFlow
